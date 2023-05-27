@@ -1,0 +1,5 @@
+<h1>All songs</h1>
+
+<% @songs.each do |song| %>
+  <p><%= song.title %> | <%= song.year %> | <%= song.category %></p>
+<% end %>

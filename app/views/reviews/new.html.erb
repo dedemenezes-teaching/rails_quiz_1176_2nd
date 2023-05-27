@@ -1,0 +1,6 @@
+<h1>Add a review</h1>
+<%#  /songs/:song_id/reviews %>
+<%= form_with model: [@song, @review] do |f| %>
+  <%= f.text_field :content %>
+  <%= f.submit %>
+<% end %>
